@@ -1,0 +1,78 @@
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0ffe0;
+    color: #333;
+    font-size: 16px;
+}
+
+/* 标题样式 */
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: #007BFF;
+    animation: dance 2s infinite alternate;
+}
+
+@keyframes dance {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* 定价部分样式 */
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-option {
+    flex: 1;
+    margin: 10px;
+}
+
+.pricing-option img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+/* 联系客服部分样式 */
+.contact {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007BFF;
+   
+margin-bottom: 10px;
+}
+
+footer ul {
+list-style-type: none;
+padding: 0;
+}
+
+footer li {
+font-size: 1.2em;
+font-weight: bold;
+color: #007BFF;
+background: -webkit-linear-gradient(45deg, #007BFF, #FFC107);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 5px;
+}

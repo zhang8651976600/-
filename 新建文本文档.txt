@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT 账号销售</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="icon-container">
+        <a href="普通账号.html" class="icon-link">
+            <img src="普通账号图标.png" alt="成品普通账号" />
+            <span>成品普通账号</span>
+        </a>
+        <a href="CHATGPT_PLUS.html" class="icon-link">
+            <img src="CHATGPT_PLUS图标.png" alt="成品CHATGPT PLUS" />
+            <span>成品CHATGPT PLUS</span>
+        </a>
+        <a href="代充值.html" class="icon-link">
+            <img src="代充值图标.png" alt="CHATGPT PLUS 代充值" />
+            <span>CHATGPT PLUS 代充值</span>
+        </a>
+    </div>
+    <p>充值成功后请联系客服人员 V:Z8651999</p>
+    <footer>
+        <h3>关于 ChatGPT</h3>
+        <p>ChatGPT 是一款强大的自然语言处理工具，能帮助您解决各种文本处理任务。它可以用于文本生成、摘要、翻译等众多场景，为您节省时间、提高工作效率。</p>
+    </footer>
+</body>
+</html>
